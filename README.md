@@ -29,7 +29,8 @@ Download
 
 ---
 
-###Shortcode Options
+### Shortcode Options
+
 [plans currency="$" decimals="2" price_suffix_month="/mo" price_suffix_year="/yr" starred_badge="Recommended" show_switch="1" columns=""]
 
 Attributes
