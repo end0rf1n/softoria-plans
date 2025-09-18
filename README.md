@@ -10,6 +10,43 @@ Download
 
 ---
 
+## Installation
+
+### A) Upload the plugin ZIP (recommended)
+1. Go to **WP Admin → Plugins → Add New → Upload Plugin**.
+2. Select **plans.zip** → **Install Now** → **Activate**.
+
+### B) Manual install (FTP/SSH)
+1. Download the ZIP above and **unzip** it.
+2. Make sure the top-level folder is **plans/** and it contains **plans.php**.
+3. Upload the whole **plans/** folder to **`wp-content/plugins/`**.
+4. Go to **WP Admin → Plugins** and activate **Plans**.
+
+### After activation
+1. Open **WP Admin → Plans** and create a few Plan items.
+2. Add the shortcode [plans] to any page
+
+---
+
+Shortcode Options
+[plans currency="$" decimals="2" price_suffix_month="/mo" price_suffix_year="/yr" starred_badge="Recommended" show_switch="1" columns=""]
+
+Attributes
+- currency — currency symbol (default: $)
+- decimals — price decimals (default: 2)
+- price_suffix_month — suffix for monthly price (default: /mo)
+- price_suffix_year — suffix for annual price (default: /yr)
+- starred_badge — text for the “starred” badge (default: Recommended)
+- show_switch — show tabs switcher (1 or 0, default: 1)
+- columns — integer to force a fixed number of columns (optional)
+
+Examples
+[plans]
+[plans currency="€" decimals="0" starred_badge="Top pick"]
+[plans columns="4"]
+
+---
+
 Requirements
 - WordPress 6.8.2
 - PHP 7.4+
@@ -42,35 +79,6 @@ Features
 - Front-end:
   - Vanilla JS tabs (no jQuery)
   - Minimal, accessible styles with subtle hovers
-
----
-
-Installation
-1. Copy the plugin folder to:
-   wp-content/plugins/plans
-2. Activate Plans in WP Admin → Plugins.
-3. Create your Plan entries in WP Admin → Plans.
-4. Add the shortcode to any page:
-   [plans]
-
----
-
-Shortcode Options
-[plans currency="$" decimals="2" price_suffix_month="/mo" price_suffix_year="/yr" starred_badge="Recommended" show_switch="1" columns=""]
-
-Attributes
-- currency — currency symbol (default: $)
-- decimals — price decimals (default: 2)
-- price_suffix_month — suffix for monthly price (default: /mo)
-- price_suffix_year — suffix for annual price (default: /yr)
-- starred_badge — text for the “starred” badge (default: Recommended)
-- show_switch — show tabs switcher (1 or 0, default: 1)
-- columns — integer to force a fixed number of columns (optional)
-
-Examples
-[plans]
-[plans currency="€" decimals="0" starred_badge="Top pick"]
-[plans columns="4"]
 
 ---
 
