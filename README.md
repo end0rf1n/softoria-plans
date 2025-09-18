@@ -92,27 +92,6 @@ Compatibility
 
 ---
 
-Project Structure
-wp-content/
-└── plugins/
-    └── plans/
-        ├── plans.php
-        ├── includes/
-        │   ├── class-plans-cpt.php
-        │   ├── class-plans-meta.php
-        │   ├── class-plans-admin.php
-        │   ├── class-plans-shortcode.php
-        │   └── class-plans-cache.php
-        └── assets/
-            ├── css/
-            │   └── plans.css
-            └── js/
-                ├── plans.js
-                ├── admin-metabox.js
-                └── admin-columns.js
-
----
-
 Architecture Notes
 - Plans_CPT — registers the custom post type (public off; no single/archive)
 - Plans_Meta — meta registration, meta box UI, sanitization/validation, cache bust on save
