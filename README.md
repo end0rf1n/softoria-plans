@@ -13,8 +13,9 @@ Download
 ## Installation
 
 ### A) Upload the plugin ZIP (recommended)
-1. Go to **WP Admin → Plugins → Add New → Upload Plugin**.
-2. Select **plans.zip** → **Install Now** → **Activate**.
+1. Download the ZIP above
+2. Go to **WP Admin → Plugins → Add New → Upload Plugin**.
+3. Select **plans.zip** → **Install Now** → **Activate**.
 
 ### B) Manual install (FTP/SSH)
 1. Download the ZIP above and **unzip** it.
