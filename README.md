@@ -4,6 +4,12 @@ A lightweight WordPress plugin that adds a **Plan** custom post type and a **[pl
 
 ---
 
+Download
+- **Latest:** [Download plugin ZIP](https://github.com/end0rf1n/softoria-plans/releases/latest/download/plans.zip)
+- **v1.0.0:** [Download plugin ZIP](https://github.com/end0rf1n/softoria-plans/releases/download/v1.0.0/plans.zip)
+
+---
+
 Requirements
 - WordPress 6.8.2
 - PHP 7.4+
@@ -46,12 +52,6 @@ Installation
 3. Create your Plan entries in WP Admin → Plans.
 4. Add the shortcode to any page:
    [plans]
-
----
-
-Download
-- **Latest:** [Download plugin ZIP](https://github.com/end0rf1n/softoria-plans/releases/latest/download/plans.zip)
-- **v1.0.0:** [Download plugin ZIP](https://github.com/end0rf1n/softoria-plans/releases/download/v1.0.0/plans.zip)
 
 ---
 
