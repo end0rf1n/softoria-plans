@@ -1,4 +1,4 @@
-Plans — WordPress Plugin (Softoria Test Task)
+Plans - WordPress Plugin (Softoria Test Task)
 
 A lightweight WordPress plugin that adds a **Plan** custom post type and a **[plans]** shortcode to display pricing plans in **Monthly | Annual** tabs. Front-end has **no jQuery dependency**.
 
