@@ -49,6 +49,12 @@ Installation
 
 ---
 
+Download
+- **Latest:** [Download plugin ZIP](https://github.com/end0rf1n/softoria-plans/releases/latest/download/plans.zip)
+- **v1.0.0:** [Download plugin ZIP](https://github.com/end0rf1n/softoria-plans/releases/download/v1.0.0/plans.zip)
+
+---
+
 Shortcode Options
 [plans currency="$" decimals="2" price_suffix_month="/mo" price_suffix_year="/yr" starred_badge="Recommended" show_switch="1" columns=""]
 
